@@ -25,7 +25,7 @@ SECRET_KEY = '$6srl#bb8t361ol*wd$@0ibn3r-%cndbd%^rp=5d1pf^%lpga%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['192.168.247.135']
 
 
 # Application definition
@@ -130,7 +130,7 @@ STATIC_ROOT = 'staticfiles'
 STATIC_URL = '/static/'
 
 STATICFILES_DIR = (
-    os.path.joini(BASE_DIR, 'static')
+    os.path.join(BASE_DIR, 'static')
 )
 
 CORS_ORIGIN_ALLOW_ALL = True

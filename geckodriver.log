@@ -1,0 +1,214 @@
+1505507720048	geckodriver	INFO	geckodriver 0.18.0
+1505507720058	geckodriver	INFO	Listening on 127.0.0.1:55955
+1505507721464	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505507723715	Marionette	INFO	Enabled via --marionette
+1505507730390	Marionette	INFO	Listening on port 35413
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505507730657	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505507731035	Marionette	DEBUG	loaded listener.js
+1505507731463	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505507733757	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505507733759	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1505507735119	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F1%2F4380875"
+1505507735526	Marionette	DEBUG	Received DOM event "pageshow" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F1%2F4380875"
+JavaScript warning: http://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1505508538767	geckodriver	INFO	geckodriver 0.18.0
+1505508538775	geckodriver	INFO	Listening on 127.0.0.1:35309
+1505508540043	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505508542970	Marionette	INFO	Enabled via --marionette
+1505508551331	Marionette	INFO	Listening on port 45003
+1505508551564	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505508551909	Marionette	DEBUG	loaded listener.js
+1505508552243	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505508554050	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505508554050	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1505508555768	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F1%2F4380875"
+1505508556624	Marionette	DEBUG	Received DOM event "pageshow" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F1%2F4380875"
+JavaScript warning: http://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1505508604273	geckodriver	INFO	geckodriver 0.18.0
+1505508604281	geckodriver	INFO	Listening on 127.0.0.1:46329
+1505508605929	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505508609067	Marionette	INFO	Enabled via --marionette
+1505508617543	Marionette	INFO	Listening on port 44727
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505508617749	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505508617997	Marionette	DEBUG	loaded listener.js
+1505508618435	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505508620714	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505508620714	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1505508622493	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F1%2F4380875"
+1505508625229	Marionette	DEBUG	Received DOM event "pageshow" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F1%2F4380875"
+JavaScript warning: http://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1505508775100	geckodriver	INFO	geckodriver 0.18.0
+1505508775123	geckodriver	INFO	Listening on 127.0.0.1:35175
+1505508775487	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505508779118	Marionette	INFO	Enabled via --marionette
+1505508789025	Marionette	INFO	Listening on port 40901
+1505508789175	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505508789427	Marionette	DEBUG	loaded listener.js
+1505508790100	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505508791080	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505508791081	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1505508792290	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F1%2F4380875"
+1505508794182	Marionette	DEBUG	Received DOM event "pageshow" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F1%2F4380875"
+JavaScript warning: http://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1505508891054	geckodriver	INFO	geckodriver 0.18.0
+1505508891069	geckodriver	INFO	Listening on 127.0.0.1:53077
+1505508892681	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505508895532	Marionette	INFO	Enabled via --marionette
+1505508901829	Marionette	INFO	Listening on port 33755
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505508901941	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505508902495	Marionette	DEBUG	loaded listener.js
+1505508905129	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505508907318	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505508907320	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1505508909182	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F2%2F%25226212167%2522"
+1505508910680	Marionette	DEBUG	Received DOM event "pageshow" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F2%2F%25226212167%2522"
+JavaScript warning: http://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1505508961895	geckodriver	INFO	geckodriver 0.18.0
+1505508961913	geckodriver	INFO	Listening on 127.0.0.1:38393
+1505508963753	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505508970590	Marionette	INFO	Enabled via --marionette
+1505508981413	Marionette	INFO	Listening on port 33147
+1505508981595	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505508981737	Marionette	DEBUG	loaded listener.js
+1505508982111	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505508983669	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505508983670	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1505508986454	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F2%2F6212167"
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505508987982	Marionette	DEBUG	Received DOM event "pageshow" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F2%2F6212167"
+JavaScript warning: http://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1505509091415	geckodriver	INFO	geckodriver 0.18.0
+1505509091438	geckodriver	INFO	Listening on 127.0.0.1:34645
+1505509093061	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505509095796	Marionette	INFO	Enabled via --marionette
+1505509106011	Marionette	INFO	Listening on port 33939
+1505509106205	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505509106380	Marionette	DEBUG	loaded listener.js
+1505509106924	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505509108502	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505509108502	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1505509110335	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F2%2F4380875"
+1505509112147	Marionette	DEBUG	Received DOM event "pageshow" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F2%2F4380875"
+JavaScript warning: http://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1505509187628	geckodriver	INFO	geckodriver 0.18.0
+1505509187636	geckodriver	INFO	Listening on 127.0.0.1:45077
+1505509189524	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505509194789	Marionette	INFO	Enabled via --marionette
+1505509215499	Marionette	INFO	Listening on port 38303
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505509215676	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505509215781	Marionette	DEBUG	loaded listener.js
+1505509215934	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505509217065	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505509217065	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1505509218683	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F2%2F6212167"
+1505509219357	Marionette	DEBUG	Received DOM event "pageshow" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F2%2F6212167"
+JavaScript warning: http://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1505509237271	geckodriver	INFO	geckodriver 0.18.0
+1505509237275	geckodriver	INFO	Listening on 127.0.0.1:52911
+1505509239087	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505509241699	Marionette	INFO	Enabled via --marionette
+1505509249355	Marionette	INFO	Listening on port 35283
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505509249453	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505509249578	Marionette	DEBUG	loaded listener.js
+1505509249844	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505509251686	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505509251688	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1505509253198	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F2%2F6212167"
+1505509255512	Marionette	DEBUG	Received DOM event "pageshow" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F2%2F6212167"
+JavaScript warning: http://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 80150] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-S0wyi8/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1505509421437	geckodriver	INFO	geckodriver 0.18.0
+1505509421445	geckodriver	INFO	Listening on 127.0.0.1:35903
+1505509423140	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505509425027	Marionette	INFO	Enabled via --marionette
+1505509430769	Marionette	INFO	Listening on port 36951
+1505509431299	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505509431473	Marionette	DEBUG	loaded listener.js
+1505509431893	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505509432695	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505509432697	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1505509434682	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F2%2F6212167"
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505509436297	Marionette	DEBUG	Received DOM event "pageshow" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F2%2F6212167"
+JavaScript warning: http://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 80454] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-S0wyi8/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1505510679881	geckodriver	INFO	geckodriver 0.18.0
+1505510679886	geckodriver	INFO	Listening on 127.0.0.1:51889
+1505510681226	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505510682514	Marionette	INFO	Enabled via --marionette
+1505510685769	Marionette	INFO	Listening on port 40031
+1505510685811	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505510686003	Marionette	DEBUG	loaded listener.js
+1505510686179	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505510687412	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505510687421	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1505510688544	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F2%2F6212167"
+1505510689165	Marionette	DEBUG	Received DOM event "pageshow" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F2%2F6212167"
+JavaScript warning: http://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1505510711344	geckodriver	INFO	geckodriver 0.18.0
+1505510711381	geckodriver	INFO	Listening on 127.0.0.1:42539
+1505510712802	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505510713881	Marionette	INFO	Enabled via --marionette
+1505510717339	Marionette	INFO	Listening on port 45991
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505510717400	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505510717964	Marionette	DEBUG	loaded listener.js
+1505510718210	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505510718763	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505510718768	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1505510719613	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F2%2F6212167"
+1505510720307	Marionette	DEBUG	Received DOM event "pageshow" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F2%2F6212167"
+JavaScript warning: http://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1505510737217	geckodriver	INFO	geckodriver 0.18.0
+1505510737241	geckodriver	INFO	Listening on 127.0.0.1:59909
+1505510738659	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505510741498	Marionette	INFO	Enabled via --marionette
+1505510745259	Marionette	INFO	Listening on port 36631
+1505510745442	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505510745721	Marionette	DEBUG	loaded listener.js
+1505510746116	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505510747700	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505510747703	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1505510748383	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F2%2F6212167"
+1505510749067	Marionette	DEBUG	Received DOM event "pageshow" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F2%2F6212167"
+JavaScript warning: http://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1505510765259	geckodriver	INFO	geckodriver 0.18.0
+1505510765297	geckodriver	INFO	Listening on 127.0.0.1:60149
+1505510766568	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505510767588	Marionette	INFO	Enabled via --marionette
+1505510771363	Marionette	INFO	Listening on port 35565
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505510771719	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505510772000	Marionette	DEBUG	loaded listener.js
+1505510772265	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505510772969	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505510772971	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1505510773904	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F2%2F6212167"
+1505510775084	Marionette	DEBUG	Received DOM event "pageshow" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F2%2F6212167"
+JavaScript warning: http://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
