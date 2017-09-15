@@ -8,7 +8,7 @@ def message(request):
     
     if request.method == "GET":
         
-        driver = webdriver.Firefox()
+        driver = webdriver.Chrome()
 
         url = request.GET.get('url', '')
         print(url)

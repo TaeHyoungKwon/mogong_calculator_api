@@ -212,3 +212,225 @@ JavaScript warning: https://everytime.kr/js/extensions.jquery-1.10.2.min.js, lin
 1505510773904	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F2%2F6212167"
 1505510775084	Marionette	DEBUG	Received DOM event "pageshow" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F2%2F6212167"
 JavaScript warning: http://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1505511255698	geckodriver	INFO	Listening on 127.0.0.1:55308
+1505511257746	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1505511258210	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1505511258874	Marionette	INFO	Enabled via --marionette
+[Parent 7628] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10892] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10892] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1505511261164	Marionette	INFO	Listening on port 55314
+1505511261212	Marionette	INFO	Listening on port 55314
+1505511261369	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505511261415	Marionette	DEBUG	loaded listener.js
+1505511261446	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505511262844	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505511262845	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1505511263105	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F2%2F6212167"
+1505511263705	Marionette	DEBUG	Received DOM event "pageshow" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F2%2F6212167"
+JavaScript warning: http://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[GPU 2392] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 2392] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 2392] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 2392] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11392] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11392] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 2392] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+dons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1505511514570	Marionette	INFO	Enabled via --marionette
+1505511516504	Marionette	INFO	Listening on port 55490
+1505511516519	Marionette	INFO	Listening on port 55490
+1505511516904	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505511516994	Marionette	DEBUG	loaded listener.js
+1505511517075	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505511517671	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505511517671	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1505511517922	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F2%2F6212167"
+1505511518795	Marionette	DEBUG	Received DOM event "pageshow" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F2%2F6212167"
+JavaScript warning: http://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[GPU 11600] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 11600] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9996] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1505511764327	geckodriver	INFO	Listening on 127.0.0.1:55585
+1505511766388	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1505511766877	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1505511767724	Marionette	INFO	Enabled via --marionette
+1505511770672	Marionette	INFO	Listening on port 55591
+1505511770703	Marionette	INFO	Listening on port 55591
+1505511771698	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505511771784	Marionette	DEBUG	loaded listener.js
+1505511771827	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505511773295	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505511773296	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1505511773672	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F2%2F621216"
+1505511774315	Marionette	DEBUG	Received DOM event "pageshow" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F2%2F621216"
+JavaScript warning: http://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Child 10804] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10804] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 8952] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+source://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1505511782577	Marionette	INFO	Enabled via --marionette
+1505511785071	Marionette	INFO	Listening on port 55677
+1505511785083	Marionette	INFO	Listening on port 55677
+1505511785159	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505511785245	Marionette	DEBUG	loaded listener.js
+1505511785309	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505511785970	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505511785970	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1505511786381	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F2%2F621216"
+1505511787242	Marionette	DEBUG	Received DOM event "pageshow" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F2%2F621216"
+JavaScript warning: http://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[GPU 11072] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 11072] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1132] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1132] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+dons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1505511799895	Marionette	INFO	Enabled via --marionette
+JavaScript error: resource:///modules/ExtensionsUI.jsm, line 50: TypeError: RecentWindow.getMostRecentBrowserWindow(...) is null
+[Child 7288] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7288] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1505511802521	Marionette	INFO	Listening on port 55769
+1505511802584	Marionette	INFO	Listening on port 55769
+1505511803581	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505511803711	Marionette	DEBUG	loaded listener.js
+1505511803766	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505511804666	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505511804666	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1505511804950	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F2%2F621216"
+1505511805506	Marionette	DEBUG	Received DOM event "pageshow" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F2%2F621216"
+JavaScript warning: http://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[GPU 10964] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11100] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11100] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 10964] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1505511940609	geckodriver	INFO	Listening on 127.0.0.1:49215
+1505511942671	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1505511942988	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1505511943674	Marionette	INFO	Enabled via --marionette
+1505511945976	Marionette	INFO	Listening on port 49221
+1505511946024	Marionette	INFO	Listening on port 49221
+1505511946323	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505511946373	Marionette	DEBUG	loaded listener.js
+1505511946407	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505511947138	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505511947138	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1505511947521	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F2%2F6212167"
+1505511948262	Marionette	DEBUG	Received DOM event "pageshow" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F2%2F6212167"
+JavaScript warning: http://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[GPU 6540] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 6540] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6620] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6620] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 6540] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1505511963534	geckodriver	INFO	Listening on 127.0.0.1:49303
+1505511965581	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1505511965903	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1505511966636	Marionette	INFO	Enabled via --marionette
+1505511969044	Marionette	INFO	Listening on port 49309
+1505511969068	Marionette	INFO	Listening on port 49309
+1505511969236	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505511969315	Marionette	DEBUG	loaded listener.js
+1505511969374	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505511969830	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505511969831	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1505511970271	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F2%2F6212167"
+1505511971268	Marionette	DEBUG	Received DOM event "pageshow" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F2%2F6212167"
+JavaScript warning: http://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[GPU 572] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 572] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2420] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2420] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+s/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1505511979524	Marionette	INFO	Enabled via --marionette
+[Child 6784] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6784] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1505511981336	Marionette	INFO	Listening on port 49404
+1505511981366	Marionette	INFO	Listening on port 49404
+1505511982227	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505511982293	Marionette	DEBUG	loaded listener.js
+1505511982336	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505511982843	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505511982843	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1505511983128	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F2%2F6212167"
+1505511983627	Marionette	DEBUG	Received DOM event "pageshow" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F2%2F6212167"
+JavaScript warning: http://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[GPU 6940] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 6940] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+erStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1505511993485	Marionette	INFO	Enabled via --marionette
+JavaScript error: resource:///modules/ExtensionsUI.jsm, line 50: TypeError: RecentWindow.getMostRecentBrowserWindow(...) is null
+1505511997627	Marionette	INFO	Listening on port 49505
+1505511997833	Marionette	INFO	Listening on port 49505
+1505511997979	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505511998080	Marionette	DEBUG	loaded listener.js
+1505511998293	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505511999704	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505511999704	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1505512000193	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F2%2F6212167"
+1505512001614	Marionette	DEBUG	Received DOM event "pageshow" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F2%2F6212167"
+JavaScript warning: http://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[GPU 7572] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7772] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7772] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 7572] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+hromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+vider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1505512002558	Marionette	INFO	Enabled via --marionette
+[Parent 3500] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5540] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5540] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1505512006208	Marionette	INFO	Listening on port 49590
+1505512006253	Marionette	INFO	Listening on port 49590
+1505512007315	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505512007401	Marionette	DEBUG	loaded listener.js
+1505512007588	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505512008357	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505512008357	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1505512008614	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F2%2F6212167"
+1505512009450	Marionette	DEBUG	Received DOM event "pageshow" for "https://everytime.kr/login?redirect=%2Ftimetable%2F2017%2F2%2F6212167"
+JavaScript warning: http://everytime.kr/js/extensions.jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[GPU 8136] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 8136] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
