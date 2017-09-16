@@ -4,6 +4,7 @@ import datetime
 
 def everytime_login(driver, User_id, User_pw, url):
     
+    
     driver.get(url)
     #driver.get("http://everytime.kr/timetable/2017/2/6212167")
     driver.find_element_by_css_selector("form")
@@ -54,6 +55,8 @@ def calculate_time(top, height, i, cnt):
 
 
 def find_class(driver):
+    
+    driver.set_window_size(1920, 1080)
     time.sleep(2)
     elem = driver.find_element_by_class_name("tablebody")
     day_elem = elem.find_elements_by_tag_name('td')
@@ -62,6 +65,9 @@ def find_class(driver):
 
     calculate = []
     
+    
+    
+
     for day in day_elem:
         i +=1
         
