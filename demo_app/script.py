@@ -4,7 +4,7 @@ import datetime
 
 def everytime_login(driver, User_id, User_pw, url):
     
-    driver.get("http://everytime.kr/timetable/2017/2/" + url)
+    driver.get(url)
     #driver.get("http://everytime.kr/timetable/2017/2/6212167")
     driver.find_element_by_css_selector("form")
     elem = driver.find_element_by_name("userid")
@@ -12,6 +12,7 @@ def everytime_login(driver, User_id, User_pw, url):
     elem = driver.find_element_by_name("password")
     elem.send_keys(User_pw)
     elem.submit()
+
 
 
 def calculate_time(top, height, i, cnt):
@@ -31,8 +32,8 @@ def calculate_time(top, height, i, cnt):
     elif top == '900':
         start_time = datetime.timedelta(hours=18, minutes = 0)        
         
-    class_time = datetime.timedelta(minutes=(int(height)-1))
-    end_time = start_time + class_time + datetime.timedelta(minutes = int(15 * ((int(height)-1) / 75)))
+    #class_time = datetime.timedelta(minutes=(int(height)-1))
+    #end_time = start_time + class_time + datetime.timedelta(minutes = int(15 * ((int(height)-1) / 75 -1)))
 
     if i == 1:
         week = 'Mon'
@@ -45,7 +46,9 @@ def calculate_time(top, height, i, cnt):
     elif i == 5:
         week = 'Fri'
 
-    k = {'index' : cnt, 'day' : week, 'start' : str(start_time),'end' : str(end_time)}
+    k = {'index' : cnt, 'day' : week, 'top' : top,'height' : height}
+
+    #print(k['top'] + "/" + k['height'])
 
     return k
 
@@ -67,9 +70,6 @@ def find_class(driver):
 
             height = style[1].replace('px;', "")
             top = style[3].replace('px;', "")
-
-            print(top)
-            print(height)
             
             if  i == 1:
                 calculate.append(calculate_time(top, height, i, cnt))
@@ -94,4 +94,6 @@ if __name__ == "__main__":
     time.sleep(2)
     
     print(find_class(driver))
+    time.sleep(2)
+    driver.close()
    
