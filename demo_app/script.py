@@ -57,7 +57,7 @@ def calculate_time(top, height, i, cnt):
 def find_class(driver):
     
     driver.set_window_size(1920, 1080)
-    time.sleep(2)
+    time.sleep(1)
     elem = driver.find_element_by_class_name("tablebody")
     day_elem = elem.find_elements_by_tag_name('td')
     i = 0
@@ -97,9 +97,9 @@ if __name__ == "__main__":
     driver = webdriver.Firefox()
         
     everytime_login(driver,"kth5604","fv3528no!")
-    time.sleep(2)
+    time.sleep(1)
     
     print(find_class(driver))
-    time.sleep(2)
+    time.sleep(1)
     driver.close()
    
