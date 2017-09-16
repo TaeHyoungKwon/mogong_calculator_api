@@ -3,8 +3,7 @@ import time
 import datetime
 
 def everytime_login(driver, User_id, User_pw, url):
-    
-    
+
     driver.get(url)
     #driver.get("http://everytime.kr/timetable/2017/2/6212167")
     driver.find_element_by_css_selector("form")
