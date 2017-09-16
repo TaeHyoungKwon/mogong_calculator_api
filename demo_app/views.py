@@ -58,24 +58,26 @@ def message(request):
     fri = [0] * 660
     
     if request.method == "POST":
-        """
+        
+        '''
         urls = []
         urls = request.POST.getlist('table_url')
-        """
+        '''
         
         urls = []
-        
+
         url_dict = request.POST.dict()
 
         for url in url_dict:
             urls.append(url_dict[url])      
-        
+
+        driver = webdriver.PhantomJS()
+        cnt = 0
 
         for url in urls:
-            driver = webdriver.PhantomJS()
-            
-            everytime_login(driver,"kth5604","fv3528no!",url)
-            time.sleep(1)
+            everytime_login(driver,"kth5604","fv3528no!",url, cnt)
+            cnt += 1
+
             
             k = find_class(driver)
 
@@ -88,9 +90,15 @@ def message(request):
 
         result = {"mon":mon, "tue":tue, "wed":wed, "thu":thu, "fri":fri}
 
-        result1 = {'0' : calc_start_end(mon), '1' : calc_start_end(tue), '2' : calc_start_end(wed), '3' : calc_start_end(thu), '4' : calc_start_end(fri)}
+        result = {"mon":mon, "tue":tue, "wed":wed, "thu":thu, "fri":fri}
+        result1 = {'mon' : calc_start_end(mon), 'tue' : calc_start_end(tue), 'wed' : calc_start_end(wed), 'thu' : calc_start_end(thu), 'fri' : calc_start_end(fri)}
+
+
+        #temp_json = {"mon": [{"start": 75, "end": 239, "gap": 165}, {"start": 650, "end": 659, "gap": 10}], "tue": [{"start": 255, "end": 299, "gap": 45}, {"start": 470, "end": 479, "gap": 10}, {"start": 540, "end": 659, "gap": 120}], "wed": [{"start": 75, "end": 269, "gap": 195}, {"start": 470, "end": 479, "gap": 10}, {"start": 650, "end": 659, "gap": 10}], "thu": [{"start": 290, "end": 359, "gap": 70}, {"start": 470, "end": 659, "gap": 190}], "fri": [{"start": 540, "end": 659, "gap": 120}]}
+
         textMessage = {"calculate": result1}
         end = time.time() - start
+        print(end)
 
     return JsonResponse(textMessage)
 
