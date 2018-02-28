@@ -8,7 +8,7 @@ import time
 
 def calculate_table(mon,tue,wed,thu,fri,cal):
     
-    val = 540
+    val = 540 
 
     for c in cal:
         print(c['day'], c['top'], c['height'])
@@ -46,6 +46,7 @@ def calculate_table(mon,tue,wed,thu,fri,cal):
     result = {"mon":mon, "tue":tue, "wed":wed, "thu":thu, "fri":fri}
     return result
 
+
 @csrf_exempt
 def message(request):
     
@@ -59,11 +60,6 @@ def message(request):
     
     if request.method == "POST":
         
-        '''
-        urls = []
-        urls = request.POST.getlist('table_url')
-        '''
-        
         urls = []
 
         url_dict = request.POST.dict()
@@ -75,7 +71,7 @@ def message(request):
         cnt = 0
 
         for url in urls:
-            everytime_login(driver,"kth5604","fv3528no!",url, cnt)
+            everytime_login(driver,ID,PW,url, cnt)
             cnt += 1
 
             
@@ -88,15 +84,9 @@ def message(request):
             thu = val['thu']
             fri = val['fri']
 
-        result = {"mon":mon, "tue":tue, "wed":wed, "thu":thu, "fri":fri}
+        result = {'mon' : calc_start_end(mon), 'tue' : calc_start_end(tue), 'wed' : calc_start_end(wed), 'thu' : calc_start_end(thu), 'fri' : calc_start_end(fri)}
 
-        result = {"mon":mon, "tue":tue, "wed":wed, "thu":thu, "fri":fri}
-        result1 = {'mon' : calc_start_end(mon), 'tue' : calc_start_end(tue), 'wed' : calc_start_end(wed), 'thu' : calc_start_end(thu), 'fri' : calc_start_end(fri)}
-
-
-        #temp_json = {"mon": [{"start": 75, "end": 239, "gap": 165}, {"start": 650, "end": 659, "gap": 10}], "tue": [{"start": 255, "end": 299, "gap": 45}, {"start": 470, "end": 479, "gap": 10}, {"start": 540, "end": 659, "gap": 120}], "wed": [{"start": 75, "end": 269, "gap": 195}, {"start": 470, "end": 479, "gap": 10}, {"start": 650, "end": 659, "gap": 10}], "thu": [{"start": 290, "end": 359, "gap": 70}, {"start": 470, "end": 659, "gap": 190}], "fri": [{"start": 540, "end": 659, "gap": 120}]}
-
-        textMessage = {"calculate": result1}
+        textMessage = {"calculate": result}
         end = time.time() - start
         print(end)
 
@@ -126,7 +116,7 @@ def calc_start_end(week):
             val = {'start':start, 'end':end, 'gap':end - start + 1}
             result.append(val)
 
-    return result
+    return results
     
 
     

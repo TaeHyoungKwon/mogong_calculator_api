@@ -6,8 +6,7 @@ def everytime_login(driver, User_id, User_pw, url, cnt):
 
     if cnt == 0:
         driver.get(url)
-
-        #driver.get("http://everytime.kr/timetable/2017/2/6212167")
+        
         driver.find_element_by_css_selector("form")
         elem = driver.find_element_by_name("userid")
         elem.send_keys(User_id)
@@ -37,9 +36,6 @@ def calculate_time(top, height, i, cnt):
     elif top == '900':
         start_time = datetime.timedelta(hours=18, minutes = 0)        
         
-    #class_time = datetime.timedelta(minutes=(int(height)-1))
-    #end_time = start_time + class_time + datetime.timedelta(minutes = int(15 * ((int(height)-1) / 75 -1)))
-
     if i == 1:
         week = 'Mon'
     elif i == 2:
@@ -51,11 +47,9 @@ def calculate_time(top, height, i, cnt):
     elif i == 5:
         week = 'Fri'
 
-    k = {'index' : cnt, 'day' : week, 'top' : top,'height' : height}
+    result = {'index' : cnt, 'day' : week, 'top' : top,'height' : height}
 
-    #print(k['top'] + "/" + k['height'])
-
-    return k
+    return result
 
 
 def find_class(driver):
