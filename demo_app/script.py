@@ -97,7 +97,7 @@ if __name__ == "__main__":
     
     driver = webdriver.Firefox()
         
-    everytime_login(driver,"kth5604","fv3528no!")
+    everytime_login(driver,ID,PW)
     time.sleep(1)
     
     print(find_class(driver))
